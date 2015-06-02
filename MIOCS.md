@@ -8,9 +8,8 @@
 	  * A-2a. Name
       * A-2b. Email
   * A-3. How should the dataset be cited
-  * A-4. What papers/products have been produced based on the dataset or "not yet"
+  * A-4. What papers/products have been produced based on the dataset (if none, enter "not yet")
   * A-5. How should the dataset be cited
-  * A-6. What papers/products have been produced based on the dataset (if none, enter “not yet”)
 
 ### Community (C)
   * C-1. Name
@@ -43,5 +42,5 @@
 
 ## MIOCS Optional Information
   * A-6. License under which the data can be used
-  * DS-4. Version
+  * DS-4. Version of the license
   * DS-5. How the data was originally collected (e.g., which Twitter API did you use)
