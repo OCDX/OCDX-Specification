@@ -42,5 +42,5 @@
 
 ## MIOCS Optional Information
   * A-6. License under which the data can be used
-  * DS-4. Version of the license
+  * DS-4. Version of the data set
   * DS-5. How the data was originally collected (e.g., which Twitter API did you use)
