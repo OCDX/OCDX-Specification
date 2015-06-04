@@ -32,11 +32,11 @@
   * DS-3. Format (of the files themselves)
   * DS-4. Size of the files (magnitude - e.g., MBs, GBs, TBs)
   * DS-5. N of X (for each type of thing included users, tweets, chat entries, whatever)
-  * D3-6. Processing
-    * D3-6a. “raw” from source
-    * D3-6b. processed by someone
-    * D3-6c. Name of processor
-	* D3-6d. link to processing script or workflow description
+  * DS-6. Processing
+    * DS-6a. “raw” from source
+    * DS-6b. processed by someone
+    * DS-6c. Name of processor
+	* DS-6d. link to processing script or workflow description
 
 
 ## MIOCS Optional Information
