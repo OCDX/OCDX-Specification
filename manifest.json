@@ -9,17 +9,20 @@
 			"researchObject": {
 				"title": {}, #required
 				"abstract": {}, #required
-				"creationDate": {},
-				"privacyEthics":{ 
+				"dates": {
+					"date": {
+						"date": {},
+						"label": {} # e.g., start, end, retrieved, created
+					}
+				},
+				"privacyEthics": { 
 					"oversight": {},
 					"informedConsent": {},
 					"anonymizedData": {},
 					"privacyConsiderations": {}
 				},
 				"provenance": {
-					"narrative": {},
-					"startDate": {},
-					"endDate": {}
+					"narrative": {}
 				},
 				"publications": {
 					"publication": {}
