@@ -35,6 +35,7 @@
 				},
 				"files": { 
 					"file": { #required
+						"creator": {},
 						"name": {}, #required
 						"format": {}, #required
 						"abstract": {}, 
