@@ -1,6 +1,5 @@
 {
 	"manifest": {
-		"provenance": {}, #required
 		"standardVersions": {}, #required
 		"id": {}, #required
 		"creator": {}, #required
