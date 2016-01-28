@@ -10,6 +10,17 @@
 				"title": {}, #required
 				"abstract": {}, #required
 				"creationDate": {},
+				"privacyEthics":{ 
+					"oversight": {},
+					"informedConsent": {},
+					"anonymizedData": {},
+					"privacyConsiderations": {}
+				},
+				"provenance": {
+					"narrative": {},
+					"startDate": {},
+					"endDate": {}
+				},
 				"publications": {
 					"publication": {}
 				},
@@ -19,11 +30,6 @@
 						"comment": {}
 					}
 				},
-				"provenance": {
-					"narrative": {},
-					"startDate": {},
-					"endDate": {}
-				},
 				"files": { 
 					"file": { #required
 						"name": {}, #required
@@ -31,7 +37,13 @@
 						"abstract": {}, 
 						"size": {}, #required
 						"uri": {}, #required
-						"checksum": {} #required
+						"checksum": {}, #required
+						"dates": {
+							"date": {
+								"date": {},
+								"label": {} # e.g., start, end, retrieved, created
+							}
+						}
 					}
 				},
 				"creators": { #required
@@ -41,12 +53,6 @@
 						"type": {},
 						"contact": {} #required
 					}
-				},
-				"privacyEthics":{ 
-					"oversight": {},
-					"informedConsent": {},
-					"anonymizedData": {},
-					"privacyConsiderations": {}
 				}
 			}
 		}
