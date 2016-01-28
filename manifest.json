@@ -41,6 +41,7 @@
 						"size": {}, #required
 						"uri": {}, #required
 						"checksum": {}, #required
+						"permissions": {},
 						"dates": {
 							"date": {
 								"date": {}, # required
