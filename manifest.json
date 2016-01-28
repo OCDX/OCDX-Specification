@@ -1,0 +1,51 @@
+{
+	"manifest": {
+		"provenance": {},
+		"standardVersions": {},
+		"id": {},
+		"creator": {},
+		"dateCreated": {},
+		"comment": {},
+		"researchObject": {
+			"title": {},
+			"abstract": {},
+			"creationDate": {},
+			"publications": {
+				"publication": {}
+			},
+			"locations": {
+				"location": {
+					"url": {},
+					"comment": {}
+				}
+			},
+			"provenance": {
+				"narrative": {},
+				"startDate": {},
+				"endDate": {}
+			},
+			"files": {
+				"file": {
+					"name": {},
+					"format": {},
+					"abstract": {},
+					"size": {}
+				}
+			},
+			"creators": {
+				"creator": {
+					"name": {},
+					"role": {},
+					"type": {},
+					"contact": {}
+				}
+			},
+			"privacyEthics":{
+				"oversight": {},
+				"informedConsent": {},
+				"anonymizedData": {},
+				"privacyConsiderations": {}
+			}
+		}
+	}
+}
