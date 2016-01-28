@@ -1,18 +1,18 @@
 {
 	"manifests": {
 		"manifest": {
-			"standardVersions": {},
-			"id": {},
-			"creator": {},
-			"dateCreated": {},
+			"standardVersions": {}, # required
+			"id": {}, # required
+			"creator": {}, # required
+			"dateCreated": {}, # required
 			"comment": {},
 			"researchObject": {
-				"title": {},
-				"abstract": {},
+				"title": {}, # required
+				"abstract": {}, # required
 				"dates": {
 					"date": {
-						"date": {},
-						"label": {}
+						"date": {}, # required
+						"label": {} # required
 					}
 				},
 				"privacyEthics": { 
@@ -34,29 +34,29 @@
 					}
 				},
 				"files": { 
-					"file": {
+					"file": { # required
 						"creator": {},
-						"name": {},
-						"format": {},
+						"name": {}, # required
+						"format": {}, # required
 						"abstract": {}, 
-						"size": {},
-						"uri": {},
-						"checksum": {},
+						"size": {}, # required
+						"uri": {}, # required
+						"checksum": {}, # required
 						"permissions": {},
 						"dates": {
 							"date": {
-								"date": {},
-								"label": {} 
+								"date": {}, # required
+								"label": {}  # required
 							}
 						}
 					}
 				},
-				"creators": {
-					"creator": {
-						"name": {},
+				"creators": { # required
+					"creator": { # required
+						"name": {}, # required
 						"role": {},
 						"type": {},
-						"contact": {}
+						"contact": {} # required
 					}
 				}
 			}
