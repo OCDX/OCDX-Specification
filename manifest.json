@@ -1,14 +1,14 @@
 {
 	"manifest": {
-		"provenance": {},
-		"standardVersions": {},
-		"id": {},
-		"creator": {},
-		"dateCreated": {},
+		"provenance": {}, #required
+		"standardVersions": {}, #required
+		"id": {}, #required
+		"creator": {}, #required
+		"dateCreated": {}, #required
 		"comment": {},
 		"researchObject": {
-			"title": {},
-			"abstract": {},
+			"title": {}, #required
+			"abstract": {}, #required
 			"creationDate": {},
 			"publications": {
 				"publication": {}
@@ -24,23 +24,23 @@
 				"startDate": {},
 				"endDate": {}
 			},
-			"files": {
-				"file": {
-					"name": {},
-					"format": {},
-					"abstract": {},
-					"size": {}
+			"files": { #required
+				"file": { #required
+					"name": {}, #required
+					"format": {}, #required
+					"abstract": {}, 
+					"size": {} #required
 				}
 			},
-			"creators": {
-				"creator": {
-					"name": {},
+			"creators": { #required
+				"creator": { #required
+					"name": {}, #required
 					"role": {},
 					"type": {},
-					"contact": {}
+					"contact": {} #required
 				}
 			},
-			"privacyEthics":{
+			"privacyEthics":{ 
 				"oversight": {},
 				"informedConsent": {},
 				"anonymizedData": {},
