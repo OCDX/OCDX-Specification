@@ -11,8 +11,8 @@
 				"abstract": {}, #required
 				"dates": {
 					"date": {
-						"date": {},
-						"label": {} # e.g., start, end, retrieved, created
+						"date": {}, # required
+						"label": {} # required
 					}
 				},
 				"privacyEthics": { 
@@ -43,8 +43,8 @@
 						"checksum": {}, #required
 						"dates": {
 							"date": {
-								"date": {},
-								"label": {} # e.g., start, end, retrieved, created
+								"date": {}, # required
+								"label": {}  # required
 							}
 						}
 					}
