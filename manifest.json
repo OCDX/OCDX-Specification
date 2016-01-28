@@ -6,45 +6,47 @@
 		"creator": {}, #required
 		"dateCreated": {}, #required
 		"comment": {},
-		"researchObject": {
-			"title": {}, #required
-			"abstract": {}, #required
-			"creationDate": {},
-			"publications": {
-				"publication": {}
-			},
-			"locations": {
-				"location": {
-					"url": {},
-					"comment": {}
+		"researchObjects": {
+			"researchObject": {
+				"title": {}, #required
+				"abstract": {}, #required
+				"creationDate": {},
+				"publications": {
+					"publication": {}
+				},
+				"locations": {
+					"location": {
+						"url": {},
+						"comment": {}
+					}
+				},
+				"provenance": {
+					"narrative": {},
+					"startDate": {},
+					"endDate": {}
+				},
+				"files": { #required
+					"file": { #required
+						"name": {}, #required
+						"format": {}, #required
+						"abstract": {}, 
+						"size": {} #required
+					}
+				},
+				"creators": { #required
+					"creator": { #required
+						"name": {}, #required
+						"role": {},
+						"type": {},
+						"contact": {} #required
+					}
+				},
+				"privacyEthics":{ 
+					"oversight": {},
+					"informedConsent": {},
+					"anonymizedData": {},
+					"privacyConsiderations": {}
 				}
-			},
-			"provenance": {
-				"narrative": {},
-				"startDate": {},
-				"endDate": {}
-			},
-			"files": { #required
-				"file": { #required
-					"name": {}, #required
-					"format": {}, #required
-					"abstract": {}, 
-					"size": {} #required
-				}
-			},
-			"creators": { #required
-				"creator": { #required
-					"name": {}, #required
-					"role": {},
-					"type": {},
-					"contact": {} #required
-				}
-			},
-			"privacyEthics":{ 
-				"oversight": {},
-				"informedConsent": {},
-				"anonymizedData": {},
-				"privacyConsiderations": {}
 			}
 		}
 	}
