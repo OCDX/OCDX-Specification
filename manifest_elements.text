@@ -1,0 +1,57 @@
+ocdxManifest: 1.0
+DataLicense: CC0-1.0
+
+—Notes on format—
+### indicates container element
+## indicates parent element
+ocdx: child element 
+—>attributes (i.e. refines of an element)
+—
+
+###Manifests 
+
+##Manifest
+ocdx:id
+ocdx: creator
+ocdx: dateCreated
+ocdx:comment
+
+###Research Object
+##researchObject:dataset
+ocdx:title
+ocdx:abstract
+
+##researchObject:dates
+ocdx:date
+—>type
+
+ocdx:publication
+
+##researchObject:location
+ocdx:url
+—>comment
+
+##researchObject:provenance
+ocdx:narrative
+
+###researchObject:files 
+##file
+ocdx:name
+ocdx:ormat
+ocdx:abstract
+ocdx:size
+ocdx:checksum
+ocdx:permissions
+ocdx:dates
+
+###researchObject:creators
+##creator
+ocdx:name
+ocdx:role
+ocdx:type
+ocdx:contact
+
+
+
+
+
