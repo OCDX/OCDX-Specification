@@ -1,0 +1,79 @@
+{
+	"manifest ": [{
+		"creator": {
+			"firstName": "Kristen",
+			"lastName": "Schuster"
+		},
+		"id": {
+			"url": "http://wiki.datafactories.org/index.php Linux_Kernel_Mailing_List_Insults_(2012)"
+		},
+		"date": {
+			"created": "2016-02-02"
+		},
+		"comment": {
+			"text": "This manifest was created by Kristen Schuster "
+		}
+
+	}],
+
+	"researchObject": {
+		"title": {
+			"text": "Amazon product co - purchasing network metadata"
+		},
+		"abstract": {
+			"text": "Data was collected by crawling Amazon website and contains product metadata and review information for about 548,552 different products"
+		},
+		"date": {
+			"start": "2015-01-27"
+		},
+		"publication": {
+			"citation": "Stanford Network Analysis Project (2006). Amazon produce c-purchasing network analysis. Retrieved from http://snap.stanford.edu/data/amazon-meta.html"
+		},
+		"location": {
+			"url": "https://snap.stanford.edu/dat/amazon-meta.html"
+		},
+		"provenance": {
+			"narrative": "Tweets collected using twitterGoggles"
+		},
+		"files": {
+			"file": {
+				"name": "torvaldInsults2012.csv",
+				"format": "csv",
+				"size": "323MB",
+				"date": {
+					"created": "2015 - 02 - 20 "
+				},
+				"checksum": {
+					"sha1": "2fd4e1c67a2d28fced849ee1bb76e7391b93eb12"
+				},
+				"permission": {
+					"text": "Dataset available upon request"
+				}
+			},
+			"file": {
+				"name": "torvaldInsulsts2013.csv ",
+				"format": "csv",
+				"size": "30MB",
+				"date": {
+					"processed": "2014-05-10"
+				},
+				"checksum": {
+					"sha1": "fd4e1c67a2d28fced849ee1bb76e7391b93eb12 "
+				},
+				"permission": {
+					"text": "Dataset available upon request"
+				}
+			},
+			"creator": {
+				"name": {
+					"firstName": "Hans",
+					"lastName": "Gruber"
+				},
+				"type": "Private corporation",
+				"type": "Grant funder"
+			}
+
+
+		}
+	}
+}
