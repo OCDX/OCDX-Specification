@@ -1,0 +1,123 @@
+ocdxManifest: 1.0
+DataLicense: CC0-1.0
+
+—Notes on format—
+—Notes on format—
+### indicates container element
+## indicates parent element
+ocdx: child element 
+—>attributes (i.e. refines of an element)
+—
+*Definition for element, includes information about cardinality
+[ ]Formatting instructions
+— 
+
+###ocdxManifests
+declaration of start for a record using ocdxManifest schema v.1
+
+##Manifest 
+ocdx:id 
+*Unique identifier for manifest; is required; is not repeatable 
+[ManifestID: UniqueURI]
+
+ocdx:creator
+*Name of person creating manifest; is required; is not repeatable
+[Firstname Lastname]
+
+ocdx:dateCreated
+* Date that manifest is created; is required; is not repeatable
+[yyyy-mm-dd]
+
+ocdx:comment
+*Details or comments about creator of manifest or the manifest itself, i.e., role in relation to data. Is not required; is not repeatable
+[Free text, one sentence]
+
+###Research Object
+##researchObject:dataset
+ocdx:title
+*A one sentence title for the dataset. Is required; is not repeatable
+[One sentence that describes the datasets contents. Whenever possible copy from source]
+
+ocdx:abstract
+*A complete summary of the dataset, which should include dates for creation/capture, institutional affiliations, motivations for data collection, and magnitude of the data (how many people, events, rows, etc.). Is required; is not repeatable
+[Free text, one paragraph]
+
+##researchObject:dates
+ocdx:date
+*Dates associated with the dataset: start, end, retrieved, created
+—>type
+[yyyy-mm-dd]
+
+ocdx:publication
+* Paper citation(s) if applicable. Is not required. Is repeatable
+[APA 6th edition]
+
+##researchObject:location
+ocdx:url
+*Where is the data? Is not required; is not repeatable
+[URL]
+
+ocdx:comment
+*Statement about the location - for instance, where/how can I get the actual dataset if not from a URL?. Not required; not repeatable.
+[Free text; DOI or URI]
+
+##researchObject:provenance
+ocdx:narrative
+*This describes the workflow involved in collecting and filtering (or cleaning) the data. This could be a link to someplace that describes the data provenance. Recommended information includes how the data was collected, from where, by whom, and using what applications/scripts/etc. Is not required; is not repeatable.
+[Free text]
+
+###researchObject:files 
+##file
+*Container for attributes below. The file(s) could contain either data, which is what is described in the example below; or, it could include a file that contains a URL to a dynamic, ongoing dataset.  Both types of data files could exist in a dataset. Is required; is repeatable
+
+ocdx:name
+*Name of each file in the manifest. Is required; is not repeatable
+[Text]
+
+ocdx:format
+* File formats researchers will download in order to access the datasets. Is required; is not repeatable
+[mime type]
+
+ocdx:abstract
+*After downloading and opening files, what will a person be looking at? Text, integers, photos, visualizations of networks etc.? Is not required; is not repeatable
+[Text]
+
+ocdx:size
+* Size of disk on file. Is required; is not repeatable
+[International system of quantities ####Type]
+
+ocdx:checksum
+*A hash of the file contents. Is required; is not repeatable
+[SHA-1]
+
+ocdx:permissions
+*Are there any notices or statements that limit access and use of datasets stored in the repository or host site? Are there any steps a researcher should take to gain access to the 
+data source? Are there any types of projects or institutions that will not be permitted to use the data source? Is not required. Is not repeatable
+[URL or free text]
+
+ocdx:dates
+*The date that the dataset was extracted, retrieved or produced. Is not required; is not repeatable
+[yyyy-mm-dd]
+—>type:start, end, retrieved, created
+
+###researchObject:creators
+##creator
+*Person or persons responsible for the creation of the dataset. Is required; is repeatable
+
+ocdx:name
+* Person or organization with a role in producing the dataset. Is required. Is repeatable
+[First name Last name]
+
+ocdx:role
+*The role played by a creator in creating the dataset. Is not required. Is not repeatable
+[Corporate sponsor; Grant funder; Primary investigator; Other]
+
+ocdx:type
+* Type of agency involved in the creation of a dataset. Is not required; is not repeatable
+[Educational institutions; Government; NGO; Individual; Private for profit entity]
+
+ocdx:contact
+*How to contact the creator. Is required; is repeatable
+[Address; email; social media; phone]
+
+
