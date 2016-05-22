@@ -1,0 +1,65 @@
+{
+	"manifests": {
+		"manifest": {
+			"standardVersions": "",
+			"id": "",
+			"creator": "",
+			"dateCreated": "",
+			"comment": "",
+			"researchObject": {
+				"title": "",
+				"abstract": "",
+				"dates": {
+					"date": {
+						"date": "",
+						"label": ""
+					}
+				},
+				"privacyEthics": { 
+					"oversight": "",
+					"informedConsent": "",
+					"anonymizedData": "",
+					"privacyConsiderations": ""
+				},
+				"provenance": {
+					"narrative": ""
+				},
+				"publications": {
+					"publication": ""
+				},
+				"locations": {
+					"location": {
+						"url": "",
+						"comment": ""
+					}
+				},
+				"files": { 
+					"file": {
+						"creator": "",
+						"name": "",
+						"format": "",
+						"abstract": "", 
+						"size": "",
+						"uri": "",
+						"checksum": "",
+						"permissions": "",
+						"dates": {
+							"date": {
+								"date": "",
+								"label": "" 
+							}
+						}
+					}
+				},
+				"creators": {
+					"creator": {
+						"name": "",
+						"role": "",
+						"type": "",
+						"contact": ""
+					}
+				}
+			}
+		}
+	}
+}

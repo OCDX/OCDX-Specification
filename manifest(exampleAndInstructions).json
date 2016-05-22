@@ -1,0 +1,72 @@
+{
+	"manifests": {
+		"manifest": {
+			"standardVersions": "ocdxManifest schema v.1", #Declaration of start for a record using ocdxManifest schema v.1.
+			"id": "https: //datahub.io/dataset/teahouse-corpus", #Unique identifier for manifest; is required; is not repeatable; URL or URI for dataset. 
+			"creator": "Kristen Schuster", #Name of person creating manifest; is required; is not repeatable enter as First Name, Last Name. If unavailable enter No Assertion.
+			"dateCreated": "2016 - 20 - 04", #Date that manifest is created; is required; is not repeatable enter as yyyy-dd-mm.
+			"comment": "This is an example OCDX manifest created by Krsiten Schuster", #Details or comments about creator of manifest or the manifest itself; is not required; is not repeatable.
+			"researchObject": {
+				"title": "Teahouse Corpus", #A one sentence title for the dataset. If a title is not given, provide one sentence that describes the datasets contents. Whenever possible copy from source. Is required; is not repeatable. If unavailable enter No Assertion. 
+				"abstract": "The Teahouse corpus is aset of questions asked at the Wikipedia Teahouse, a peer support forum for new Wikipedia editors. This corpus contains data from its first two years of operation.", #A complete summary of the dataset, which should include dates for creation/capture, institutional affiliations, motivations for data collection, and magnitude of the data (how many people, events, rows, etc.). Is required; is not repeatable. Free text. If unavailable enter No Assertion.
+				"dates": {
+					"date": {
+						"date": "2012 - 02 - 27", #Dates associated with the dataset enter as yyyy-dd-mm. Is required; is repeatable. If unavailable enter No Assertion.
+						"label": "start" #Indicate date type, choose one: start, end, retrieved, created. s required. Is repeatable. If unavailable enter No Assertion.
+					}
+				}
+			},
+			"privacyEthics": {
+				"oversight": { #Was institutional oversight applied to data collection and/or analysis? Is required. Is not repeatable.
+					"label": "No assertion" #Indicates oversight type, choose one: IRB, REB, REC, Not required, Other, No Assertion. 
+				}
+			},
+			"informedConsent": "No assertion", #Indicate whether informed consent obtained or wether participants were notified of their inclusion in the dataset. Is required; is not repeatable. If unknown state No Assertion.
+			"anonymizedData": { #Indicate whether anything has been excluded, removed or altered in the dataset in order to protect the identities, integrity and rights of participants? Is required; Is repeatable.
+				"label": "No assertion" #Choose one, repeat if necessary: names anonymized, names excluded, date of birth anonymized, date of death anonymized, identifying numbers anonymized, race and ethcnitiy categories anonymized, religious affiliation anonymized, health and wellness data anonymized, location or GPS coordinates anonymized, other, No Assertion.
+			},
+			"privacyConsiderations": "No assertion" #Are there any special considerations that need to be taken in order to ensure use or re-use of a dataset maintains the rights and privacy of subjects? Is required. Is not repeatable. Free text. If unknown, unclear or not applicable write No Assertion.
+		},
+		"provenance": {
+			"narrative": "The Teahouse started as an editor engagement initiative and Fellowship project.It was launched in February 2012 by a small team working with the Wikimedia Foundation.Our intention was to pilot a new, scalable model for teaching Wikipedia newcomers the ropes of editing in a friendly and engaging environment. The ultimate goal of the pilot project was to increase the retention of new Wikipedia editors(most of whom give up and leave within their first 24 hours post - registration) through early proactive outreach.The project was particularly focused on retaining female newcomers, who are woefully underrepresented among the regular contributors to the encyclopedia." #Describes the workflow involved in collecting and filtering (or cleaning) the data. This could be a link to someplace that describes the data provenance. Recommended information includes how the data was collected, from where, by whom, and using what applications/scripts/etc. Is not required; is not repeatable. If unknown, unclear or not applicable write No Assertion. 
+		},
+		"publications": { #Paper citation(s) if applicable. Is not required. Is repeatable. Use APA 6th edition. If unknown, unclear or not applicable write No Assertion. 
+			"publication": "No assertion"
+		},
+		"locations": {
+			"location": { #Provide a link to where the data can be retrieved from. Is not required; is repeatable. If unknown, unclear or not applicable write No Assertion. 
+				"url": {},
+				"comment": {} #Statement about the location - for instance, where/how can I get the actual dataset if not from a URL? Not required; not repeatable. If unknown, unclear or not applicable write No Assertion.
+			}
+		},
+		"files": { #Container for attributes below. The file(s) could contain either data, or, it could include a file that contains a URL to a dynamic, ongoing dataset. Both types of data files could exist in a dataset. Is required; is repeatable. If unknown, unclear or not applicable write No Assertion.
+			"file": {
+				"name": "teahouse - questions20140223.csv" #Name of each file in the manifest. Is required; is not repeatable. Transcribe from source. If unknown, unclear or not applicable write No Assertion. 
+			},
+			"format": ".csv", #File formats researchers will download in order to access the datasets. Is required; is not repeatable. Transcribe from source. If unknown, unclear or not applicable write No Assertion. 
+			"abstract": "Metadata for 5,003 questions",  #After downloading and opening files, what will a person be looking at? Text, integers, photos, visualizations of networks etc.? Is not required; is not repeatable. If unknown, unclear or not applicable write No Assertion. 
+			"size": "No assertion", #Size of disk on file. Is required; is not repeatable. Use international system of quantities file size (written as a number) type. If unknown, unclear or not applicable write No Assertion.
+			"url": "No assertion", #URL to retrieve dataset. Is required. Is not repeatable. If unknown, unclear or not applicable write No Assertion. 
+			"checksum": "No assertion" #A hash of the file contents. Is required; is not repeatable. If unknown, unclear write No Assertion. 
+		},
+		"permissions": "No assertion" #Are there any notices or statements that limit access and use of datasets stored in the repository or host site? Are there any steps a researcher should take to gain access to the data source? Are there any types of projects or institutions that will not be permitted to use the data source? Is not required. Is not repeatable. If unknown, unclear or not applicable write No Assertion. 
+	},
+	"dates": {
+		"date": { 
+			"date": "2014 - 02 - 15" #The date that the dataset was extracted, retrieved or produced. Is not required; is not repeatable. Format: yyy-mm-dd. 
+		},
+		"label": "Created" #Date type: Start, end, retrieved, No Assertion.
+	},
+	"creators": { #Person or persons responsible for the creation of the dataset. Is required; is repeatable. If unknown, unclear or not applicable write No Assertion. 
+		"creator": {
+			"name": "Jonathan Morgan", #Person or organization with a role in producing the dataset. Is required. Is repeatable. Enter as First name Last name. If unknown, unclear or not applicable write No Assertion. 
+			"role": { #The role played by a creator in creating the dataset. Is not required. Is not repeatable. If unknown, unclear or not applicable write No Assertion. 
+				"label": "Other" #Corporate sponsor; Grant funder; Primary investigator; Other, No Assertion.
+			}
+		},
+		"type": {
+			"label": "No assertion" #Educational institutions; Government; NGO; Individual; Private for profit entity, No Assertion.
+		},
+		"contact": "jmorgan@wikimedia.org" #How to contact the creator. Is required; is repeatable. If unknown, unclear or not applicable write No Assertion.
+	}
+}
