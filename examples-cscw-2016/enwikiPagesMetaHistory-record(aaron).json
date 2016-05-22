@@ -1,0 +1,56 @@
+{
+	"manifests": {
+		"manifest": {
+			"standardVersions": "???",
+			"id": 0,
+			"creator": "Aaron Halfaker <aaron.halfaker@gmail.com>",
+			"dateCreated": "2015-02-11T00:00:00Z",
+			"comment": "Init with my best understanding of the fields",
+			"researchObject": {
+				"title": "The English Wikipedia Revision Table",
+				"abstract": "This dataset contains metadata for every edit to every visible page in the English Wikipedia",
+				"dates": [],
+				"privacyEthics": {
+					"anonymizedData": "Some fields of this table have been dropped because they have been flagged by administrators as containing sensitive or offensive information.",
+				},
+				"provenance": {
+					"narrative": "This dataset is constantly being updated as edits are saved to the English Wikipedia.  Note that revisions to deleted pages are move from the `revision` table to the `archive` table."
+				},
+				"locations": [
+					{
+						"url": "https://www.mediawiki.org/wiki/Manual:Revision_table",
+						"comment": "Documentation for the revision table.  To access and download data from the table, see https://quarry.wmflabs.org"
+					}
+				],
+				"files": [
+					{
+						"creator": "Many",
+						"name": "revision",
+						"format": "InnoDB/TSV",
+						"abstract": "Each row in this table represents a version of a visible page on Wikipedia",
+						"size": "~100GB",
+						"uri": "mysql://enwiki_p.revision",
+						"checksum": null
+					},
+					{
+						"creator": "Many",
+						"name": "archive",
+						"format": "InnoDB/TSV",
+						"abstract": "Each row in this table represents a version of a deleted page on Wikipedia",
+						"size": "~5GB",
+						"uri": "mysql://enwiki_p.archive",
+						"checksum": null
+					}
+				],
+				"creators": [
+					{
+						"name": "Many",
+						"role": "Volunteers",
+						"type": "Unknown",
+						"contact": null
+					}
+				]
+			}
+		}
+	}
+}
