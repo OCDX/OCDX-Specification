@@ -1,0 +1,74 @@
+{
+	"manifests": {
+		"manifest": {
+			"standardVersions": "???",
+			"id": 0,
+			"creator": "Aaron Halfaker <aaron.halfaker@gmail.com>",
+			"dateCreated": "2015-02-11T00:00:00Z",
+			"comment": "Init with my best understanding of the fields",
+			"researchObject": {
+				"title": "The English Wikipedia Edit Session (2015-08)",
+				"abstract": "This dataset contains a record for every \"edit session\" that occured on English Wikipedia up to Aug. 2015",
+				"dates": [
+					{
+						"date": "2015-08-01T00:00:00Z",
+						"label": "generated"
+					}
+				],
+				"provenance": {
+					"narrative": "This dataset was created by applying the edit session threshold described in Geiger, R. S., & Halfaker, A. (2013, February). Using edit sessions to measure participation in Wikipedia. In Proceedings of the 2013 conference on Computer supported cooperative work (pp. 861-870). ACM.  The 'sessionize' utility from https://pythonhosted.org/mwsessions/utilities.html was run against the entire chronological history of the English Wikipedia `revision` and `archive` tables.  These files are the result of that run."
+				},
+				"publications": [
+					"Geiger, R. S., & Halfaker, A. (2013, February). Using edit sessions to measure participation in Wikipedia. In Proceedings of the 2013 conference on Computer supported cooperative work (pp. 861-870). ACM.",
+          "Halfaker, A., Keyes, O., Kluver, D., Thebault-Spieker, J., Nguyen, T., Shores, K., ... & Warncke-Wang, M. (2015, May). User session identification based on strong regularities in inter-activity time. In Proceedings of the 24th International Conference on World Wide Web (pp. 410-418). International World Wide Web Conferences Steering Committee."
+				],
+				"locations": [
+					{
+						"url": "https://meta.wikimedia.org/wiki/Research:Activity_session",
+						"comment": "General discussion of the means and implications of measuring activity sessions."
+					}
+				],
+				"files": [
+					{
+						"creator": "Aaron Halfaker <aaron.halfaker@gmail.com>",
+						"name": "sessions.enwiki.2015-08",
+						"format": "text/TSV",
+						"abstract": "This file contains all of the edit sessions that occured in the history of English Wikipedia.  Each row represents a session.",
+						"size": "1.7G",
+						"uri": "http://datasets.wikimedia.org/public-datasets/all/sessions/sessions.enwiki.2015-08.tsv.bz2",
+						"checksum": "MD5:aa1298573744c5f8719b649fd73213b8",
+						"dates": [
+							"date": {
+								"date": "2015-10-13T14:25:00Z",
+								"label": "generated"
+							}
+						]
+					},
+					{
+						"creator": "Aaron Halfaker <aaron.halfaker@gmail.com>",
+						"name": "session_revisions.enwiki.2015-08",
+						"format": "text/TSV",
+						"abstract": "This file contains all of the edit revisions saved in the history of English Wikipedia with session annotations included.",
+						"size": "27G",
+						"uri": "http://datasets.wikimedia.org/public-datasets/all/sessions/session_revisions.enwiki.2015-08.tsv.bz2",
+						"checksum": "MD5:",
+						"dates": [
+							{
+								"date": "2015-10-13T14:24:00Z",
+								"label": "generated"
+							}
+						]
+					}
+				],
+				"creators": [
+					{
+						"name": "Aaron Halfaker <aaron.halfaker@gmail.com>",
+						"role": "Research Scientist",
+						"type": "Awesome",
+						"contact": "aaron.halfaker@gmail.com"
+					}
+				]
+			}
+		}
+	}
+}
