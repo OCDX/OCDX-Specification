@@ -17,7 +17,6 @@ Use Cases
   b.	Recommended
     i.	files/file/format (A)
     ii.	privacyEthics (M)
-    iii.	termsOfServiceCompliance (A/M)
 
  3)	Reuse and Reproducibility
   a.	Minimal Required
@@ -27,6 +26,5 @@ Use Cases
     iv.	researchObject/creators (A/M)
     v.	researchObject/provenance 
     vi.	files 
-    vii.	distributions/distribution (A/M)
   b.	Recommended
     i.	privacyEthics (M)
