@@ -105,6 +105,66 @@
                         "dateCreated":"2015-01-12"
                      }
                   ]
+               },
+               {  
+                  "creator":[  
+                     "Megan Squire",
+                     "Rebecca Gazda"
+                  ],
+                  "name":"genderLKMLHicss2015.tsv.txt",
+                  "format":"tsv",
+                  "abstract":"Contains variety of gender-related comments made to LKML starting in (?) 1998",
+                  "size":"51 K",
+                  "uri":"http://flossdata.syr.edu/data/insults/genderLKMLHicss2015.tsv.txt",
+                  "checksum":"no assertion",
+                  "permissions":"Open Database License 1.0",
+                  "dates":[  
+                     {  
+                        "fileTimeInterval":"",
+                        "dateRetrievedTimeInterval":"",
+                        "dateCreated":"2015-01-12"
+                     }
+                  ]
+               },
+               {  
+                  "creator":[  
+                     "Megan Squire",
+                     "Rebecca Gazda"
+                  ],
+                  "name":"momHicss2015.tsv.txt",
+                  "format":"tsv",
+                  "abstract":"Contains variety of maternal insults (mom jokes) including setup line and punch line",
+                  "size":"35 K",
+                  "uri":"http://flossdata.syr.edu/data/insults/momHicss2015.tsv.txt",
+                  "checksum":"no assertion",
+                  "permissions":"Open Database License 1.0",
+                  "dates":[  
+                     {  
+                        "fileTimeInterval":"",
+                        "dateRetrievedTimeInterval":"",
+                        "dateCreated":"2015-01-12"
+                     }
+                  ]
+               },
+               {  
+                  "creator":[  
+                     "Megan Squire",
+                     "Rebecca Gazda"
+                  ],
+                  "name":"twssHicss2015.tsv.txt",
+                  "format":"tsv",
+                  "abstract":"Contains variety of that's what she said (TWSS) jokes, including setup line and punch line",
+                  "size":"22 K",
+                  "uri":"http://flossdata.syr.edu/data/insults/twssHicss2015.tsv.txt",
+                  "checksum":"no assertion",
+                  "permissions":"Open Database License 1.0",
+                  "dates":[  
+                     {  
+                        "fileTimeInterval":"",
+                        "dateRetrievedTimeInterval":"",
+                        "dateCreated":"2015-01-12"
+                     }
+                  ]
                }
             ]
          },
