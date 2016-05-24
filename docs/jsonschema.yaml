@@ -1,0 +1,271 @@
+--- 
+$schema: "http://json-schema.org/draft-04/schema#"
+description: "An explanation about the purpose of this instance."
+properties: 
+  manifests: 
+    description: "An explanation about the purpose of this instance."
+    items: 
+      description: "An explanation about the purpose of this instance."
+      properties: 
+        comment: 
+          description: "Any comments on the creation of the manifest. This is where you can tell us more about any 'no assertion' answers or the script that generated the manfiest, for instance. You could also tell us about any problems you ran into generating the manifest."
+          title: "Comment schema."
+          type: string
+        creator: 
+          description: "Name the person or tool who is creating this manifest so that we know who or how it was created."
+          title: "Creator schema."
+          type: string
+        dateCreated: 
+          description: "Date the manifest was created."
+          title: "DateCreated schema."
+          type: string
+        id: 
+          description: "Uniquely identify the manifest so that we don't confuse it with others and can refer to it easily. This is machine-generated."
+          title: "Id schema."
+          type: string
+        researchObject: 
+          description: "An explanation about the purpose of this instance."
+          properties: 
+            abstract: 
+              description: "An explanation about the purpose of this instance."
+              title: "Abstract schema."
+              type: string
+            bibliographicCitations: 
+              description: "An explanation about the purpose of this instance."
+              properties: 
+                bibliographicCitation: 
+                  description: "An explanation about the purpose of this instance."
+                  title: "BibliographicCitation schema."
+                  type: string
+              required: 
+                - bibliographicCitation
+              title: "BibliographicCitations schema."
+              type: object
+            creators: 
+              description: "An explanation about the purpose of this instance."
+              items: 
+                description: "An explanation about the purpose of this instance."
+                properties: 
+                  contact: 
+                    description: "An explanation about the purpose of this instance."
+                    title: "Contact schema."
+                    type: string
+                  name: 
+                    description: "An explanation about the purpose of this instance."
+                    title: "Name schema."
+                    type: string
+                  role: 
+                    description: "An explanation about the purpose of this instance."
+                    title: "Role schema."
+                    type: string
+                  type: 
+                    description: "An explanation about the purpose of this instance."
+                    title: "Type schema."
+                    type: string
+                required: 
+                  - name
+                  - role
+                  - type
+                  - contact
+                title: "0 schema."
+                type: object
+              title: "Creators schema."
+              type: array
+            dates: 
+              description: "An explanation about the purpose of this instance."
+              properties: 
+                datasetTimeInterval: 
+                  description: "An explanation about the purpose of this instance."
+                  title: "DatasetTimeInterval schema."
+                  type: string
+                dateCreated: 
+                  description: "An explanation about the purpose of this instance."
+                  title: "DateCreated schema."
+                  type: string
+                dateRetrievedTimeInterval: 
+                  description: "An explanation about the purpose of this instance."
+                  title: "DateRetrievedTimeInterval schema."
+                  type: string
+              required: 
+                - datasetTimeInterval
+                - dateRetrievedTimeInterval
+                - dateCreated
+              title: "Dates schema."
+              type: object
+            distributions: 
+              description: "An explanation about the purpose of this instance."
+              properties: 
+                distribution: 
+                  description: "An explanation about the purpose of this instance."
+                  properties: 
+                    comment: 
+                      description: "An explanation about the purpose of this instance."
+                      title: "Comment schema."
+                      type: string
+                    uri: 
+                      description: "An explanation about the purpose of this instance."
+                      title: "Uri schema."
+                      type: string
+                  required: 
+                    - uri
+                    - comment
+                  title: "Distribution schema."
+                  type: object
+              required: 
+                - distribution
+              title: "Distributions schema."
+              type: object
+            files: 
+              description: "An explanation about the purpose of this instance."
+              items: 
+                description: "An explanation about the purpose of this instance."
+                properties: 
+                  abstract: 
+                    description: "An explanation about the purpose of this instance."
+                    title: "Abstract schema."
+                    type: string
+                  checksum: 
+                    description: "An explanation about the purpose of this instance."
+                    title: "Checksum schema."
+                    type: string
+                  creator: 
+                    description: "An explanation about the purpose of this instance."
+                    title: "Creator schema."
+                    type: string
+                  dates: 
+                    description: "An explanation about the purpose of this instance."
+                    properties: 
+                      dateCreated: 
+                        description: "An explanation about the purpose of this instance."
+                        title: "DateCreated schema."
+                        type: string
+                      dateRetrievedTimeInterval: 
+                        description: "An explanation about the purpose of this instance."
+                        title: "DateRetrievedTimeInterval schema."
+                        type: string
+                      fileTimeInterval: 
+                        description: "An explanation about the purpose of this instance."
+                        title: "FileTimeInterval schema."
+                        type: string
+                    required: 
+                      - fileTimeInterval
+                      - dateRetrievedTimeInterval
+                      - dateCreated
+                    title: "Dates schema."
+                    type: object
+                  format: 
+                    description: "An explanation about the purpose of this instance."
+                    title: "Format schema."
+                    type: string
+                  name: 
+                    description: "An explanation about the purpose of this instance."
+                    title: "Name schema."
+                    type: string
+                  permissions: 
+                    description: "An explanation about the purpose of this instance."
+                    title: "Permissions schema."
+                    type: string
+                  size: 
+                    description: "An explanation about the purpose of this instance."
+                    title: "Size schema."
+                    type: string
+                  uri: 
+                    description: "An explanation about the purpose of this instance."
+                    title: "Uri schema."
+                    type: string
+                required: 
+                  - creator
+                  - name
+                  - format
+                  - abstract
+                  - size
+                  - uri
+                  - checksum
+                  - permissions
+                  - dates
+                title: "0 schema."
+                type: object
+              title: "Files schema."
+              type: array
+            isBasedOn: 
+              description: "An explanation about the purpose of this instance."
+              title: "IsBasedOn schema."
+              type: string
+            privacyEthics: 
+              description: "An explanation about the purpose of this instance."
+              properties: 
+                anonymizedData: 
+                  description: "An explanation about the purpose of this instance."
+                  title: "AnonymizedData schema."
+                  type: string
+                informedConsent: 
+                  description: "An explanation about the purpose of this instance."
+                  title: "InformedConsent schema."
+                  type: string
+                oversight: 
+                  description: "An explanation about the purpose of this instance."
+                  title: "Oversight schema."
+                  type: string
+                privacyConsiderations: 
+                  description: "An explanation about the purpose of this instance."
+                  title: "PrivacyConsiderations schema."
+                  type: string
+                termsOfService: 
+                  description: "An explanation about the purpose of this instance."
+                  title: "TermsOfService schema."
+                  type: string
+              required: 
+                - oversight
+                - informedConsent
+                - anonymizedData
+                - privacyConsiderations
+                - termsOfService
+              title: "PrivacyEthics schema."
+              type: object
+            provenance: 
+              description: "An explanation about the purpose of this instance."
+              properties: 
+                narrative: 
+                  description: "An explanation about the purpose of this instance."
+                  title: "Narrative schema."
+                  type: string
+              required: 
+                - narrative
+              title: "Provenance schema."
+              type: object
+            title: 
+              description: "An explanation about the purpose of this instance."
+              title: "Title schema."
+              type: string
+          required: 
+            - title
+            - abstract
+            - isBasedOn
+            - dates
+            - privacyEthics
+            - provenance
+            - bibliographicCitations
+            - distributions
+            - files
+            - creators
+          title: "ResearchObject schema."
+          type: object
+        standardVersions: 
+          description: "An explanation about the purpose of this instance."
+          title: "StandardVersions schema."
+          type: string
+      required: 
+        - standardVersions
+        - id
+        - creator
+        - dateCreated
+        - comment
+        - researchObject
+      title: Manifest
+      type: object
+    title: Manifests
+    type: array
+required: 
+  - manifests
+title: "Root schema."
+type: object
