@@ -165,6 +165,27 @@
                         "dateCreated":"2015-01-12"
                      }
                   ]
+               },
+               
+               {  
+                  "creator":[  
+                     "Megan Squire",
+                     "Rebecca Gazda"
+                  ],
+                  "name":"hicssInsultsv2.pdf",
+                  "format":"PDF",
+                  "abstract":"Link to paper describing this data set of insult/joke files",
+                  "size":"323 K",
+                  "uri":"http://flossdata.syr.edu/data/insults/hicssInsultsv2.pdf",
+                  "checksum":"no assertion",
+                  "permissions":"",
+                  "dates":[  
+                     {  
+                        "fileTimeInterval":"",
+                        "dateRetrievedTimeInterval":"",
+                        "dateCreated":"2014-12-31"
+                     }
+                  ]
                }
             ]
          },
