@@ -35,13 +35,12 @@
                   "uri":"http://flossdata.syr.edu/data/insults/2012LTinsultsLKML.tsv.txt",
                   "checksum":"no assertion",
                   "permissions":"Open Database License 1.0",
-                  "dates":[  
+                  "dates":
                      {  
                         "fileTimeInterval":"",
                         "dateRetrievedTimeInterval":"",
                         "dateCreated":"2015-01-12"
                      }
-                  ]
                },
                {  
                   "name":"2013LTinsultsLKML.tsv.txt",
@@ -51,13 +50,12 @@
                   "uri":"http://flossdata.syr.edu/data/insults/2013LTinsultsLKML.tsv.txt",
                   "checksum":"no assertion",
                   "permissions":"Open Database License 1.0",
-                  "dates":[  
+                  "dates":
                      {  
                         "fileTimeInterval":"",
                         "dateRetrievedTimeInterval":"",
                         "dateCreated":"2015-01-12"
                      }
-                  ]
                },
                {  
                   "name":"2014LTinsultsLKML.tsv.txt",
@@ -67,13 +65,12 @@
                   "uri":"http://flossdata.syr.edu/data/insults/2014LTinsultsLKML.tsv.txt",
                   "checksum":"no assertion",
                   "permissions":"Open Database License 1.0",
-                  "dates":[  
+                  "dates":
                      {  
                         "fileTimeInterval":"",
                         "dateRetrievedTimeInterval":"",
                         "dateCreated":"2015-01-12"
                      }
-                  ]
                },
                {  
                   "name":"genderHicss2015.tsv.txt",
@@ -83,13 +80,12 @@
                   "uri":"http://flossdata.syr.edu/data/insults/genderHicss2015.tsv.txt",
                   "checksum":"no assertion",
                   "permissions":"Open Database License 1.0",
-                  "dates":[  
+                  "dates":
                      {  
                         "fileTimeInterval":"",
                         "dateRetrievedTimeInterval":"",
                         "dateCreated":"2015-01-12"
                      }
-                  ]
                },
                {  
                   "name":"genderLKMLHicss2015.tsv.txt",
@@ -99,13 +95,12 @@
                   "uri":"http://flossdata.syr.edu/data/insults/genderLKMLHicss2015.tsv.txt",
                   "checksum":"no assertion",
                   "permissions":"Open Database License 1.0",
-                  "dates":[  
+                  "dates": 
                      {  
                         "fileTimeInterval":"",
                         "dateRetrievedTimeInterval":"",
                         "dateCreated":"2015-01-12"
                      }
-                  ]
                },
                {  
                   "name":"momHicss2015.tsv.txt",
@@ -115,13 +110,12 @@
                   "uri":"http://flossdata.syr.edu/data/insults/momHicss2015.tsv.txt",
                   "checksum":"no assertion",
                   "permissions":"Open Database License 1.0",
-                  "dates":[  
+                  "dates":
                      {  
                         "fileTimeInterval":"",
                         "dateRetrievedTimeInterval":"",
                         "dateCreated":"2015-01-12"
                      }
-                  ]
                },
                {  
                   "name":"twssHicss2015.tsv.txt",
@@ -131,15 +125,13 @@
                   "uri":"http://flossdata.syr.edu/data/insults/twssHicss2015.tsv.txt",
                   "checksum":"no assertion",
                   "permissions":"Open Database License 1.0",
-                  "dates":[  
+                  "dates":
                      {  
                         "fileTimeInterval":"",
                         "dateRetrievedTimeInterval":"",
                         "dateCreated":"2015-01-12"
                      }
-                  ]
                },
-               
                {  
                   "name":"hicssInsultsv2.pdf",
                   "format":"PDF",
@@ -148,13 +140,12 @@
                   "uri":"http://flossdata.syr.edu/data/insults/hicssInsultsv2.pdf",
                   "checksum":"no assertion",
                   "permissions":"",
-                  "dates":[  
+                  "dates":
                      {  
                         "fileTimeInterval":"",
                         "dateRetrievedTimeInterval":"",
                         "dateCreated":"2014-12-31"
                      }
-                  ]
                }
             ]
          },
