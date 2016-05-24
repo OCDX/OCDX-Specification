@@ -1,7 +1,7 @@
 {  
    "manifests":[  
       {  
-         "standardsVersion": "v0.1.4"
+         "standardsVersion": "v0.1.4",
          "id":"machine generated",
          "creator":"Megan Squire",
          "dateCreated":"machine generated",
