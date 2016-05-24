@@ -3,7 +3,7 @@
 # OCDX Data Manifest Specifications
 __Version: 0.1__
 
-This document describes the properties you should include in a manifest for inclusion in the OCDX manifest directory. For each property, we describe its definition and purpose, cardinality, and format.
+This document describes the properties you should include in a manifest for inclusion in the OCDX manifest directory. For each property, we describe its definition and purpose, cardinality, and format. We currently provide one [complete example](sampleCompletedManifest.json).
 
 ## standardsVersion
 ### Definition and Purpose
