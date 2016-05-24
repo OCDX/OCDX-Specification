@@ -161,11 +161,11 @@
          "creators":[  
             {  
                "name":"Megan Squire",
-               "contact":"msquire@elon.edu"
+               "email":"msquire@elon.edu"
             },
             {  
                "name":"Rebecca Gazda",
-               "contact":"no assertion"
+               "email":"no assertion"
             }
          ]
       }
