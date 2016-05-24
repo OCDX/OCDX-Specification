@@ -1,5 +1,5 @@
 {
-	"manifests": {
+	"manifests": [
 		"manifest": {
 			"standardVersions": "machine generated?",
 			"id": "machine generated",
@@ -65,6 +65,6 @@
 					
 				}
 			}
-		}
+		]
 	}
 }
