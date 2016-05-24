@@ -1,7 +1,7 @@
 {
 	"manifests": {
 		"manifest": {
-			"standardVersions": "machine generated",
+			"standardVersions": "machine generated?",
 			"id": "machine generated",
 			"creator": "Megan Squire",
 			"dateCreated": "machine generated",
@@ -22,7 +22,7 @@
 				"distributions": {
 					"distribution": {
 						"uri": "http://flossdata.syr.edu/data/insults/",
-						"comment": "Folder with 7 files & 1 paper file"
+						"comment": "Folder with 7 data files & 1 PDF paper file"
 					}
 				},
 				"files": [
