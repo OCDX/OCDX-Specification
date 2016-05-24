@@ -17,12 +17,13 @@
                "narrative":"full details in paper"
             },
             "bibliographicCitations":[  
-               "Squire, M. & Gazda, R. (2015). FLOSS as a source for profanity and insults: Collecting the data. In Proceedings of 48th Hawai'i International Conference on System Sciences (HICSS-48). IEEE. Hawaii, USA. 5290-5298"
+               "Squire, M. & Gazda, R. (2015). FLOSS as a source for profanity and insults: Collecting the data. In Proceedings of 48th Hawai'i International Conference on System Sciences (HICSS-48). IEEE. Hawaii, USA. 5290-5298",
+               "Howison, J., Conklin, M., & Crowston, K. (2006). FLOSSmole: A collaborative repository for FLOSS research data and analyses. International Journal of Information Technology and Web Engineering, 1(3), 17–26."
             ],
             "distributions":[  
                {  
                   "uri":"http://flossdata.syr.edu/data/insults/",
-                  "comment":"Folder with 7 data files & 1 PDF paper file"
+                  "comment":"Folder with 7 data files & 1 PDF paper file, hosted on FLOSSmole.org"
                }
             ],
             "files":[  
