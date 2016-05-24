@@ -16,9 +16,7 @@
 				"provenance": {
 					"narrative": "full details in paper"
 				},
-				"bibliographicCitations": {
-					"bibliographicCitation": "Squire, M. & Gazda, R. (2015). FLOSS as a source for profanity and insults: Collecting the data. In Proceedings of 48th Hawai'i International Conference on System Sciences (HICSS-48). IEEE. Hawaii, USA. 5290-5298"
-				},
+				"bibliographicCitations":["Squire, M. & Gazda, R. (2015). FLOSS as a source for profanity and insults: Collecting the data. In Proceedings of 48th Hawai'i International Conference on System Sciences (HICSS-48). IEEE. Hawaii, USA. 5290-5298"],
 				"distributions": {
 					"distribution": {
 						"uri": "http://flossdata.syr.edu/data/insults/",
