@@ -6,11 +6,11 @@
   properties: 
     manifests: 
       type: "array"
-      title: "Manifests schema."
+      title: "Manifests"
       description: "An explanation about the purpose of this instance."
       items: 
         type: "object"
-        title: "0 schema."
+        title: "Manifest"
         description: "An explanation about the purpose of this instance."
         properties: 
           standardVersions: 
@@ -20,19 +20,19 @@
           id: 
             type: "string"
             title: "Id schema."
-            description: "An explanation about the purpose of this instance."
+            description: "Uniquely identify the manifest so that we don't confuse it with others and can refer to it easily. This is machine-generated."
           creator: 
             type: "string"
             title: "Creator schema."
-            description: "An explanation about the purpose of this instance."
+            description: "Name the person or tool who is creating this manifest so that we know who or how it was created."
           dateCreated: 
             type: "string"
             title: "DateCreated schema."
-            description: "An explanation about the purpose of this instance."
+            description: "Date the manifest was created."
           comment: 
             type: "string"
             title: "Comment schema."
-            description: "An explanation about the purpose of this instance."
+            description: "Any comments on the creation of the manifest. This is where you can tell us more about any "no assertion" answers or the script that generated the manfiest, for instance. You could also tell us about any problems you ran into generating the manifest."
           researchObject: 
             type: "object"
             title: "ResearchObject schema."
