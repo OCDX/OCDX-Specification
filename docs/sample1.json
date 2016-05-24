@@ -28,10 +28,6 @@
             ],
             "files":[  
                {  
-                  "creator":[  
-                     "Megan Squire",
-                     "Rebecca Gazda"
-                  ],
                   "name":"2012LTinsultsLKML.tsv.txt",
                   "format":"tsv",
                   "abstract":"Contains insults gleaned from messages sent to the LKML mailing list by Linus Torvalds during the year 2012",
@@ -48,10 +44,6 @@
                   ]
                },
                {  
-                  "creator":[  
-                     "Megan Squire",
-                     "Rebecca Gazda"
-                  ],
                   "name":"2013LTinsultsLKML.tsv.txt",
                   "format":"tsv",
                   "abstract":"Contains insults gleaned from messages sent to the LKML mailing list by Linus Torvalds during the year 2013",
@@ -68,10 +60,6 @@
                   ]
                },
                {  
-                  "creator":[  
-                     "Megan Squire",
-                     "Rebecca Gazda"
-                  ],
                   "name":"2014LTinsultsLKML.tsv.txt",
                   "format":"tsv",
                   "abstract":"Contains insults gleaned from messages sent to the LKML mailing list by Linus Torvalds during the year 2014",
@@ -88,10 +76,6 @@
                   ]
                },
                {  
-                  "creator":[  
-                     "Megan Squire",
-                     "Rebecca Gazda"
-                  ],
                   "name":"genderHicss2015.tsv.txt",
                   "format":"tsv",
                   "abstract":"Contains variety of gender-related comments made to IRC and email groups starting in 2004",
@@ -108,10 +92,6 @@
                   ]
                },
                {  
-                  "creator":[  
-                     "Megan Squire",
-                     "Rebecca Gazda"
-                  ],
                   "name":"genderLKMLHicss2015.tsv.txt",
                   "format":"tsv",
                   "abstract":"Contains variety of gender-related comments made to LKML starting in (?) 1998",
@@ -128,10 +108,6 @@
                   ]
                },
                {  
-                  "creator":[  
-                     "Megan Squire",
-                     "Rebecca Gazda"
-                  ],
                   "name":"momHicss2015.tsv.txt",
                   "format":"tsv",
                   "abstract":"Contains variety of maternal insults (mom jokes) including setup line and punch line",
@@ -148,10 +124,6 @@
                   ]
                },
                {  
-                  "creator":[  
-                     "Megan Squire",
-                     "Rebecca Gazda"
-                  ],
                   "name":"twssHicss2015.tsv.txt",
                   "format":"tsv",
                   "abstract":"Contains variety of that's what she said (TWSS) jokes, including setup line and punch line",
@@ -169,10 +141,6 @@
                },
                
                {  
-                  "creator":[  
-                     "Megan Squire",
-                     "Rebecca Gazda"
-                  ],
                   "name":"hicssInsultsv2.pdf",
                   "format":"PDF",
                   "abstract":"Link to paper describing this data set of insult/joke files",
