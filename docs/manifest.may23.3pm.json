@@ -1,66 +1,61 @@
 {
-	"manifests": {
-		"manifest": {
-			"standardVersions": "",
-			"id": "",
-			"creator": "",
-			"dateCreated": "",
-			"comment": "",
-			"researchObject": {
-				"title": "",
-				"abstract": "",
-				"isBasedOn": "",
-				"dates": {
-					"datasetTimeInterval": "",
-					"dateRetrievedTimeInterval": "",
-					"dateCreated": ""
-				},
-				"privacyEthics": { 
-					"oversight": "",
-					"informedConsent": "",
-					"anonymizedData": "",
-					"privacyConsiderations": "", 
-					"termsOfService":
-				},
-				"provenance": {
-					"narrative": ""
-				},
-				"bibliographicCitations": {
-					"bibliographicCitation": ""
-				},
-				"distributions": {
-					"distribution": {
-						"uri": "",
-						"comment": ""
-					}
-				},
-				"files": { 
-					"file": {
-						"creator": "",
-						"name": "",
-						"format": "",
-						"abstract": "", 
-						"size": "",
-						"uri": "",
-						"checksum": "",
-						"permissions": "",
+	"manifests": [{
+		"standardVersions": "",
+		"id": "",
+		"creator": "",
+		"dateCreated": "",
+		"comment": "",
+		"researchObject": {
+			"title": "",
+			"abstract": "",
+			"isBasedOn": "",
+			"dates": {
+				"datasetTimeInterval": "",
+				"dateRetrievedTimeInterval": "",
+				"dateCreated": ""
+			},
+			"privacyEthics": {
+				"oversight": "",
+				"informedConsent": "",
+				"anonymizedData": "",
+				"privacyConsiderations": "",
+				"termsOfService": ""
+			},
+			"provenance": {
+				"narrative": ""
+			},
+			"bibliographicCitations": {
+				"bibliographicCitation": ""
+			},
+			"distributions": {
+				"distribution": {
+					"uri": "",
+					"comment": ""
+				}
+			},
+			"files": [{
+					"creator": "",
+					"name": "",
+					"format": "",
+					"abstract": "",
+					"size": "",
+					"uri": "",
+					"checksum": "",
+					"permissions": "",
 					"dates": {
 						"fileTimeInterval": "",
 						"dateRetrievedTimeInterval": "",
 						"dateCreated": ""
-							}
-						}
-					}
-				},
-				"creators": {
-					"creator": {
-						"name": "",
-						"role": "",
-						"type": "",
-						"contact": ""
 					}
 				}
-			}
+
+			],
+			"creators": [{
+				"name": "",
+				"role": "",
+				"type": "",
+				"contact": ""
+			}]
 		}
-	}
+	}]
 }
