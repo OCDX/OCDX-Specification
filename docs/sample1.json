@@ -1,17 +1,24 @@
 {  
    "manifests":[  
       {  
-         "standardVersions":"machine generated?",
+         "standardsVersion": "v0.1.4"
          "id":"machine generated",
          "creator":"Megan Squire",
          "dateCreated":"machine generated",
-         "comment":"no assertion",
          "researchObject":{  
             "title":"Data Sets of Insults, Gender Stereotypes, Double Entendres in FLOSS Communication",
-            "dates":{  
-               "datasetTimeInterval":"",
-               "dateRetrievedTimeInterval":"",
-               "dateCreated":"2015-01-12 17:53"
+            "creators":[  
+               {  
+                  "name":"Megan Squire",
+                  "email":"msquire@elon.edu"
+               },
+               {  
+                  "name":"Rebecca Gazda",
+                  "email":"no assertion"
+               }
+            ]
+            "dates":{
+               "dateCreated":"2015-01-12"
             },
             "provenance":{  
                "narrative":"full details in paper"
@@ -33,12 +40,9 @@
                   "abstract":"Contains insults gleaned from messages sent to the LKML mailing list by Linus Torvalds during the year 2012",
                   "size":"42 K",
                   "uri":"http://flossdata.syr.edu/data/insults/2012LTinsultsLKML.tsv.txt",
-                  "checksum":"no assertion",
                   "permissions":"Open Database License 1.0",
                   "dates":
-                     {  
-                        "fileTimeInterval":"",
-                        "dateRetrievedTimeInterval":"",
+                     {
                         "dateCreated":"2015-01-12"
                      }
                },
@@ -48,12 +52,9 @@
                   "abstract":"Contains insults gleaned from messages sent to the LKML mailing list by Linus Torvalds during the year 2013",
                   "size":"25 K",
                   "uri":"http://flossdata.syr.edu/data/insults/2013LTinsultsLKML.tsv.txt",
-                  "checksum":"no assertion",
                   "permissions":"Open Database License 1.0",
                   "dates":
-                     {  
-                        "fileTimeInterval":"",
-                        "dateRetrievedTimeInterval":"",
+                     {
                         "dateCreated":"2015-01-12"
                      }
                },
@@ -63,12 +64,9 @@
                   "abstract":"Contains insults gleaned from messages sent to the LKML mailing list by Linus Torvalds during the year 2014",
                   "size":"31 K",
                   "uri":"http://flossdata.syr.edu/data/insults/2014LTinsultsLKML.tsv.txt",
-                  "checksum":"no assertion",
                   "permissions":"Open Database License 1.0",
                   "dates":
-                     {  
-                        "fileTimeInterval":"",
-                        "dateRetrievedTimeInterval":"",
+                     {
                         "dateCreated":"2015-01-12"
                      }
                },
@@ -78,12 +76,9 @@
                   "abstract":"Contains variety of gender-related comments made to IRC and email groups starting in 2004",
                   "size":"25 K",
                   "uri":"http://flossdata.syr.edu/data/insults/genderHicss2015.tsv.txt",
-                  "checksum":"no assertion",
                   "permissions":"Open Database License 1.0",
                   "dates":
-                     {  
-                        "fileTimeInterval":"",
-                        "dateRetrievedTimeInterval":"",
+                     {
                         "dateCreated":"2015-01-12"
                      }
                },
@@ -93,12 +88,9 @@
                   "abstract":"Contains variety of gender-related comments made to LKML starting in (?) 1998",
                   "size":"51 K",
                   "uri":"http://flossdata.syr.edu/data/insults/genderLKMLHicss2015.tsv.txt",
-                  "checksum":"no assertion",
                   "permissions":"Open Database License 1.0",
                   "dates": 
-                     {  
-                        "fileTimeInterval":"",
-                        "dateRetrievedTimeInterval":"",
+                     {
                         "dateCreated":"2015-01-12"
                      }
                },
@@ -108,12 +100,9 @@
                   "abstract":"Contains variety of maternal insults (mom jokes) including setup line and punch line",
                   "size":"35 K",
                   "uri":"http://flossdata.syr.edu/data/insults/momHicss2015.tsv.txt",
-                  "checksum":"no assertion",
                   "permissions":"Open Database License 1.0",
                   "dates":
-                     {  
-                        "fileTimeInterval":"",
-                        "dateRetrievedTimeInterval":"",
+                     {
                         "dateCreated":"2015-01-12"
                      }
                },
@@ -123,12 +112,9 @@
                   "abstract":"Contains variety of that's what she said (TWSS) jokes, including setup line and punch line",
                   "size":"22 K",
                   "uri":"http://flossdata.syr.edu/data/insults/twssHicss2015.tsv.txt",
-                  "checksum":"no assertion",
                   "permissions":"Open Database License 1.0",
                   "dates":
-                     {  
-                        "fileTimeInterval":"",
-                        "dateRetrievedTimeInterval":"",
+                     {
                         "dateCreated":"2015-01-12"
                      }
                },
@@ -138,27 +124,14 @@
                   "abstract":"Link to paper describing this data set of insult/joke files",
                   "size":"323 K",
                   "uri":"http://flossdata.syr.edu/data/insults/hicssInsultsv2.pdf",
-                  "checksum":"no assertion",
                   "permissions":"",
                   "dates":
-                     {  
-                        "fileTimeInterval":"",
-                        "dateRetrievedTimeInterval":"",
+                     {
                         "dateCreated":"2014-12-31"
                      }
                }
             ]
-         },
-         "creators":[  
-            {  
-               "name":"Megan Squire",
-               "email":"msquire@elon.edu"
-            },
-            {  
-               "name":"Rebecca Gazda",
-               "email":"no assertion"
-            }
-         ]
+         }
       }
    ]
 }
