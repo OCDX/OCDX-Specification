@@ -1,68 +1,83 @@
-{
-	"manifests": [
-		"manifest": {
-			"standardVersions": "machine generated?",
-			"id": "machine generated",
-			"creator": "Megan Squire",
-			"dateCreated": "machine generated",
-			"comment": "no assertion",
-			"researchObject": {
-				"title": "Data Sets of Insults, Gender Stereotypes, Double Entendres in FLOSS Communication",
-				"dates": {
-					"datasetTimeInterval": "",
-					"dateRetrievedTimeInterval": "",
-					"dateCreated":, "2015-01-12 17:53"
-				},
-				"provenance": {
-					"narrative": "full details in paper"
-				},
-				"bibliographicCitations":["Squire, M. & Gazda, R. (2015). FLOSS as a source for profanity and insults: Collecting the data. In Proceedings of 48th Hawai'i International Conference on System Sciences (HICSS-48). IEEE. Hawaii, USA. 5290-5298"],
-				"distributions": {
-					"distribution": {
-						"uri": "http://flossdata.syr.edu/data/insults/",
-						"comment": "Folder with 7 data files & 1 PDF paper file"
-					}
-				},
-				"files": [
-				        {
-						"creator": ["Megan Squire", "Rebecca Gazda"],
-						"name": "2012LTinsultsLKML.tsv.txt",
-						"format": "tsv",
-						"abstract": "Contains insults gleaned from messages sent to the LKML mailing list by Linus Torvalds during the year 2012", 
-						"size": "42 K",
-						"uri": "http://flossdata.syr.edu/data/insults/2012LTinsultsLKML.tsv.txt",
-						"checksum": "no assertion",
-						"permissions": "Open Database License 1.0",
-					    "dates": [{
-                            "fileTimeInterval": "",
-                            "dateRetrievedTimeInterval": "",
-                            "dateCreated":, ""
-                            }]
-						},
-						{
-						"creator": ["Megan Squire", "Rebecca Gazda"],
-						"name": "2013LTinsultsLKML.tsv.txt",
-						"format": "tsv",
-						"abstract": "Contains insults gleaned from messages sent to the LKML mailing list by Linus Torvalds during the year 2013", 
-						"size": "25 K",
-						"uri": "http://flossdata.syr.edu/data/insults/2013LTinsultsLKML.tsv.txt",
-						"checksum": "no assertion",
-						"permissions": "Open Database License 1.0",
-					    "dates": [{
-                            "fileTimeInterval": "",
-                            "dateRetrievedTimeInterval": "",
-                            "dateCreated":, ""
-                            }]
-						}
-					]
-				},
-				"creators": [{"name": "Megan Squire",
-						      "contact": "msquire@elon.edu"},
-					         {"name": "Rebecca Gazda",
-					          "contact": "no assertion"}]
-					
-				}
-			}
-		]
-	}
+{  
+   "manifests":[  
+      {  
+         "standardVersions":"machine generated?",
+         "id":"machine generated",
+         "creator":"Megan Squire",
+         "dateCreated":"machine generated",
+         "comment":"no assertion",
+         "researchObject":{  
+            "title":"Data Sets of Insults, Gender Stereotypes, Double Entendres in FLOSS Communication",
+            "dates":{  
+               "datasetTimeInterval":"",
+               "dateRetrievedTimeInterval":"",
+               "dateCreated":"2015-01-12 17:53"
+            },
+            "provenance":{  
+               "narrative":"full details in paper"
+            },
+            "bibliographicCitations":[  
+               "Squire, M. & Gazda, R. (2015). FLOSS as a source for profanity and insults: Collecting the data. In Proceedings of 48th Hawai'i International Conference on System Sciences (HICSS-48). IEEE. Hawaii, USA. 5290-5298"
+            ],
+            "distributions":[  
+               {  
+                  "uri":"http://flossdata.syr.edu/data/insults/",
+                  "comment":"Folder with 7 data files & 1 PDF paper file"
+               }
+            ],
+            "files":[  
+               {  
+                  "creator":[  
+                     "Megan Squire",
+                     "Rebecca Gazda"
+                  ],
+                  "name":"2012LTinsultsLKML.tsv.txt",
+                  "format":"tsv",
+                  "abstract":"Contains insults gleaned from messages sent to the LKML mailing list by Linus Torvalds during the year 2012",
+                  "size":"42 K",
+                  "uri":"http://flossdata.syr.edu/data/insults/2012LTinsultsLKML.tsv.txt",
+                  "checksum":"no assertion",
+                  "permissions":"Open Database License 1.0",
+                  "dates":[  
+                     {  
+                        "fileTimeInterval":"",
+                        "dateRetrievedTimeInterval":"",
+                        "dateCreated":""
+                     }
+                  ]
+               },
+               {  
+                  "creator":[  
+                     "Megan Squire",
+                     "Rebecca Gazda"
+                  ],
+                  "name":"2013LTinsultsLKML.tsv.txt",
+                  "format":"tsv",
+                  "abstract":"Contains insults gleaned from messages sent to the LKML mailing list by Linus Torvalds during the year 2013",
+                  "size":"25 K",
+                  "uri":"http://flossdata.syr.edu/data/insults/2013LTinsultsLKML.tsv.txt",
+                  "checksum":"no assertion",
+                  "permissions":"Open Database License 1.0",
+                  "dates":[  
+                     {  
+                        "fileTimeInterval":"",
+                        "dateRetrievedTimeInterval":"",
+                        "dateCreated":""
+                     }
+                  ]
+               }
+            ]
+         },
+         "creators":[  
+            {  
+               "name":"Megan Squire",
+               "contact":"msquire@elon.edu"
+            },
+            {  
+               "name":"Rebecca Gazda",
+               "contact":"no assertion"
+            }
+         ]
+      }
+   ]
 }
