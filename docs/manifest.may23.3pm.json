@@ -13,7 +13,7 @@
 				"dates": {
 					"datasetTimeInterval": "",
 					"dateRetrievedTimeInterval": "",
-					"dateCreated":, ""
+					"dateCreated": ""
 				},
 				"privacyEthics": { 
 					"oversight": "",
@@ -47,7 +47,7 @@
 					"dates": {
 						"fileTimeInterval": "",
 						"dateRetrievedTimeInterval": "",
-						"dateCreated":, ""
+						"dateCreated": ""
 							}
 						}
 					}
