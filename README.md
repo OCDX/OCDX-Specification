@@ -6,7 +6,7 @@ The OCDX community supports an open standard for describing data about online co
 
 ## Contributors
 
-Libby Hemphill, Sean Goggins, Matt Germonprez, Kristen Schuster, A.J. Million, Aaron Halfaker, Megan Squire, Andrea Wiggins, Matthew J. Bietz, Jeff Hemsley, Bill Rand, June Ahn, Michele Avital, Kevin Crowston, Brian Fitzgerald,B rian Butler, Susan Winter, Katie Shilton, Arfon Smith, Carol Schmitz, Johnathan Brier, Yubaraj Pandian, Nicolas Jullien, Cornelia Boldyreff, Ann Barcomb, Derek Greentree, Claudia Hauff, Sorin Matei, Liz Thiry, Yasmine Arafa, Sabine Brunswicker, Dan Suthers, Andrea Capiluppi, Eric Meyer, Robin Tiegland, Aarfon Smith, Johnathan Morgan, and Irina Shklovski
+Libby Hemphill, Sean Goggins, Matt Germonprez, Kristen Schuster, A.J. Million, Aaron Halfaker, Megan Squire, Andrea Wiggins, Matthew J. Bietz, Jeff Hemsley, Bill Rand, June Ahn, Michele Avital, Kevin Crowston, Brian Fitzgerald,B rian Butler, Susan Winter, Katie Shilton, Arfon Smith, Carol Schmitz, Johnathan Brier, Yubaraj Pandian, Nicolas Jullien, Cornelia Boldyreff, Ann Barcomb, Derek Greentree, Claudia Hauff, Sorin Matei, Liz Thiry, Yasmine Arafa, Sabine Brunswicker, Dan Suthers, Andrea Capiluppi, Eric Meyer, Robin Tiegland, Aarfon Smith, Johnathan Morgan, and Irina Shklovski.
 
 ## Licenses
 
